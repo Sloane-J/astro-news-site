@@ -1,11 +1,11 @@
 import type { Link } from "../types";
 
 export const SITE = {
-  title: "Astro News",
+  title: "Grain & Gradient",
   description: "A news website built with Astro",
-  author: "Mohammad Rahmani",
+  author: "Samuel Dorkey",
   url: "https://astro-news-six.vercel.app",
-  github: "https://github.com/Mrahmani71/astro-news",
+  github: "https://github.com/Sloane-J/astro-news-site",
   locale: "en-US",
   dir: "ltr",
   charset: "UTF-8",
@@ -15,28 +15,24 @@ export const SITE = {
 
 export const NAVIGATION_LINKS: Link[] = [
   {
+    href: "/categories/current-affairs",
+    text: "Current Affairs",
+  },
+  {
     href: "/categories/technology",
     text: "Technology",
   },
   {
-    href: "/categories/programming",
-    text: "Programming",
+    href: "/categories/trailers",
+    text: "Trailers",
   },
   {
-    href: "/categories/lifestyle",
-    text: "Lifestyle",
+    href: "/categories/entertainment",
+    text: "Entertainment",
   },
   {
-    href: "/categories/productivity",
-    text: "Productivity",
-  },
-  {
-    href: "/categories/health",
-    text: "Health",
-  },
-  {
-    href: "/categories/finance",
-    text: "Finance",
+    href: "/categories/deals",
+    text: "Deals",
   },
 ];
 

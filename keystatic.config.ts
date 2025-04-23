@@ -7,7 +7,7 @@ export default config({
   },
   ui: {
     brand: {
-      name: "Astro News",
+      name: "Grain & Gradient",
     },
     navigation: ["---", "articles", "---", "authors", "categories"],
   },
