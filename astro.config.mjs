@@ -10,6 +10,8 @@ import react from "@astrojs/react";
 import { loadEnv } from "vite";
 import pagefind from "astro-pagefind";
 
+import vercel from "@astrojs/vercel";
+
 const { RUN_KEYSTATIC } = loadEnv(import.meta.env.MODE, process.cwd(), "");
 
 const integrations = [mdx(), sitemap(), pagefind()];
@@ -23,15 +25,21 @@ if (RUN_KEYSTATIC === "true") {
 export default defineConfig({
   site: SITE.url,
   base: SITE.basePath,
+
   markdown: {
     remarkPlugins: [readingTime, modifiedTime],
   },
+
   experimental: {
     responsiveImages: true,
   },
+
   image: {},
   integrations,
+
   vite: {
     plugins: [tailwindcss()],
   },
+
+  adapter: vercel()
 });
