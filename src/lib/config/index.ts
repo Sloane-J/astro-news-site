@@ -73,22 +73,22 @@ export const OTHER_LINKS: Link[] = [
 
 export const SOCIAL_LINKS: Link[] = [
   {
-    href: "https://github.com",
+    href: "https://github.com/Sloane-J",
     text: "GitHub",
     icon: "github",
   },
   {
-    href: "httpe://www.t.me",
+    href: "httpe://www.t.me/sloan_e",
     text: "Telegram",
     icon: "telegram",
   },
   {
-    href: "https://twitter.com",
+    href: "https://twitter.com/sloanejnr",
     text: "Twitter",
     icon: "newTwitter",
   },
   {
-    href: "https://www.facebook.com",
+    href: "https://www.facebook.com/Samuel D Jnr",
     text: "Facebook",
     icon: "facebook",
   },
