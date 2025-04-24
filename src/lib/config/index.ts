@@ -4,7 +4,7 @@ export const SITE = {
   title: "Grain & Gradient",
   description: "A news website built with Astro",
   author: "Samuel Dorkey",
-  url: "https://grain-and-gradient.vercel.app",
+  url: "https://grainandgradient.vercel.app",
   github: "https://github.com/Sloane-J/astro-news-site",
   locale: "en-US",
   dir: "ltr",
@@ -62,11 +62,11 @@ export const OTHER_LINKS: Link[] = [
     text: "Cookie Policy",
   },
   {
-    href: "https://grain-and-gradient.vercel.app/rss.xml",
+    href: "https://grainandgradient.vercel.app/rss.xml",
     text: "RSS",
   },
   {
-    href: "https://grain-and-gradient.vercel.app/sitemap-index.xml",
+    href: "https://grainandgradient.vercel.app/sitemap-index.xml",
     text: "Sitemap",
   },
 ];
